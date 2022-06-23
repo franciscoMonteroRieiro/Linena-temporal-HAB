@@ -40,10 +40,3 @@ async function genList(){
     main.append(ol)
 }
 genList()
-
-
-async function orderList(){
-    const orderlist = genEvent(obj.date)
-    orderlist.sort(obj.date)
-    console.log()
-}
