@@ -39,4 +39,8 @@ async function genList(){
     }
     main.append(ol)
 }
+
+
+
+
 genList()
