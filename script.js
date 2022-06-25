@@ -31,15 +31,15 @@ async function genList(){
     const lista = await get()
     lista.sort((a,b)=> a.date - b.date )
     console.log(lista)
-    const ol = document.createElement("ol")
+    const ul = document.createElement("ul")
     
     for (const obj of lista) {
         console.log(obj)
         
         const li = genEvent(obj)
-        ol.append(li)
+        ul.append(li)
     }
-    main.append(ol)
+    main.append(ul)
     
 }
 genList()
