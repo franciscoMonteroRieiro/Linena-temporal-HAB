@@ -1,6 +1,92 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: rgb(0, 128, 128);
+  font-family: "Source Sans Pro";
+  color: #01b7ff;
+  
+}
+
+main header{
+  background-color:rgb(0, 128, 128);
+  
+}
+
+h1 {
+  background-color:#009975;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Gill Sans';
+  color: white;
+  box-shadow: 0px 0px 30px 30px rgba(95, 95, 252, 0.664) ;
+}
+
+p{
+  color: white;
+}
+
+li {
+  position:relative;
+  list-style-type: none;
+  width: 6px;
+  background-color: white;
+  margin: auto;
+  padding-top: 1rem;
+  text-align: center;
+  
+  
+}
+
+ol li::after {
+  background: white;
+  content: '';
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  
+  
+}
+
+ol li div{
+  width: 400px;
+  padding: 15px;
+  bottom: 0;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

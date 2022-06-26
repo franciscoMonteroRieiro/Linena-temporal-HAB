@@ -8,8 +8,7 @@ async function get(){
 
     const data = await response.json()
     
-  //  console.log(data)
-
+    
     return data
 }
 
@@ -17,16 +16,26 @@ async function get(){
 function genEvent(obj){
     const li = document.createElement("li")
     li.innerHTML= `
+        <div class="container">
+        <div class="top-section">
+
+        <div class="timeline"></div>
+
         <h2>${obj.title}</h2>
         <h2>${obj.date}</h2>
-        <img src="${obj.image}" alt="">
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vitae dicta mollitia sapiente repudiandae itaque error laborum quam ab earum nihil illo inventore repellendus minima, ratione facilis beatae quo maiores!</p>
+    </div>
+    <img src="${obj.image}" alt="">
     `
     return li
+    
 }
 
 
 async function genList(){
     const lista = await get()
+    lista.sort((a,b)=> a.date - b.date )
     console.log(lista)
     const ol = document.createElement("ol")
     
@@ -34,13 +43,13 @@ async function genList(){
         console.log(obj)
         
         const li = genEvent(obj)
-
         ol.append(li)
+        
+        
     }
+
     main.append(ol)
+
 }
-
-
-
 
 genList()
