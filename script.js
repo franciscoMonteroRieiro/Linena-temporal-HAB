@@ -8,10 +8,10 @@ async function get(){
 
     const data = await response.json()
     
-    
-    return data    
-}
+  //  console.log(data)
 
+    return data
+}
 
 
 function genEvent(obj){
@@ -26,20 +26,21 @@ function genEvent(obj){
 }
 
 
-
 async function genList(){
     const lista = await get()
     lista.sort((a,b)=> a.date - b.date )
     console.log(lista)
-    const ul = document.createElement("ul")
+    const ol = document.createElement("ol")
     
     for (const obj of lista) {
         console.log(obj)
         
         const li = genEvent(obj)
-        ul.append(li)
+
+        ol.append(li)
     }
-    main.append(ul)
-    
+    main.append(ol)
 }
 genList()
+
+var lista ="./zelda-timeline.json"
