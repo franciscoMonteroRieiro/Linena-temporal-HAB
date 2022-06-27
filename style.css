@@ -30,16 +30,13 @@ li{
     box-shadow: 0px 0px 50px 50px rgb(127, 94, 247);
     border-radius: 10px;
     justify-items: center;
-    list-style:inside decimal;
+    list-style:none;
 
 }
 
-li video{
-    margin-left: 10rem;
+li img{
+    margin-right: 15rem;
 }
-
-
-
 
 
 li:nth-child(9) img {

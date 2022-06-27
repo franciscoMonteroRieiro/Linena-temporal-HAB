@@ -21,7 +21,7 @@ function genEvent(obj){
         <h2>${obj.date}</h2>
         <h3>${obj.text}</h3>
         <img src="${obj.image}" alt="">
-        <video height="300" controls poster src="">Tu navegador no soporta video</video>
+        <iframe width="560" height="315" src="${obj.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     `
     return li
 }
