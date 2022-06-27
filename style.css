@@ -38,3 +38,13 @@ li h3{
 h1 img{
     margin: 20px;
 }
+
+/*li img{
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 10rem;
+}*/
+
+li video{
+    margin-left: 10rem;
+}

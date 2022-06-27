@@ -21,6 +21,7 @@ function genEvent(obj){
         <h2>${obj.date}</h2>
         <h3>${obj.text}</h3>
         <img src="${obj.image}" alt="">
+        <video height="300" controls  poster src="">tu navegador no soporta video</video>
     `
     return li
 }
