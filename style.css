@@ -8,6 +8,7 @@ html{
 }
 
 h1{
+
     text-align: center;
     background-color: black;
     display: flex;
@@ -19,6 +20,7 @@ h1{
 }
 
 li{
+    
     color:  white;
     text-align: center;
     background-color: rebeccapurple;
