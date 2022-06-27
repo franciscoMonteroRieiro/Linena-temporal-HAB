@@ -7,7 +7,7 @@ html{
     background:rgb(34, 4, 141);
 }
 
-h1{
+header h1{
 
     text-align: center;
     background-color: black;
@@ -30,14 +30,21 @@ li{
     box-shadow: 0px 0px 50px 50px rgb(127, 94, 247);
     border-radius: 10px;
     justify-items: center;
-    list-style:none;
+    list-style:inside decimal;
 
+}
+
+li h1{
+    margin-bottom: 1rem;
 }
 
 li img{
     margin-right: 15rem;
 }
 
+li:nth-child(8) img{
+    max-height: 20rem;
+}
 
 li:nth-child(9) img {
     max-width: 22rem;
