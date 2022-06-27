@@ -21,7 +21,6 @@ h1 img{
 
 
 li{
-    list-style: none;
     color:  white;
     text-align: center;
     background-color: rebeccapurple;
@@ -31,7 +30,21 @@ li{
     box-shadow: 0px 0px 50px 50px rgb(127, 94, 247);
     border-radius: 10px;
     justify-items: center;
-    list-style: none;
+    list-style:inside decimal;
+
+}
+
+li video{
+    margin-left: 10rem;
+}
+
+
+
+
+
+li:nth-child(9) img {
+    max-width: 22rem;
+    max-height: 100rem;
 }
 
 li h3{
