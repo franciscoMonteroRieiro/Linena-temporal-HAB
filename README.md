@@ -1,6 +1,6 @@
 Linea temporal de la leyenda de Zelda.
 
-Este es un trabajo hecho por el grupo F, compuesto por las brillantes mentes de Francisco Montero Rieiro, Meybin Tercero Lam y Alex Cota Romalde.
+Este es un proyecto hecho por el grupo F, compuesto por las brillantes mentes de Francisco Montero Rieiro, Meybin Tercero Lam y Alex Cota Romalde.
 
 Es una aplicación en JavaScript que transforma un JSON con
 eventos en una línea temporal visual.
