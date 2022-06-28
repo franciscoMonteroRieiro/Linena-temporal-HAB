@@ -4,46 +4,51 @@
     box-sizing: border-box;
 }
 html{
-    background:rgb(34, 4, 141);
+    background:rgb(33, 15, 97);
 }
 
-h1{
-
+header h1{
     text-align: center;
     background-color: black;
     display: flex;
     justify-content: center;
     box-shadow: 0px 0px 30px 30px rgb(163, 119, 6);
 }
-h1 img{
+
+header h1 img{
     margin:20px;
 }
 
-
 li{
+    list-style: none;
     color:  white;
     text-align: center;
-    background-color: rebeccapurple;
+    background-color: rgb(120, 73, 167);
     border: 1px;
     padding: 2rem;
     margin: 10rem;
-    box-shadow: 0px 0px 50px 50px rgb(127, 94, 247);
-    border-radius: 10px;
+    box-shadow: 0px 0px 50px 50px rgb(114, 33, 131);
+    border-radius: 100px;
     justify-items: center;
-    list-style:none;
+}
 
+li h1{
+    margin-bottom: 1rem;
 }
 
 li img{
     margin-right: 15rem;
 }
 
+li:nth-child(8) img{
+    max-height: 20rem;
+}
 
 li:nth-child(9) img {
     max-width: 22rem;
     max-height: 100rem;
 }
 
-li h3{
+li h2{
     margin-bottom: 30px;
 }
