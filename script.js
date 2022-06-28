@@ -41,3 +41,12 @@ async function genList(){
     main.append(ol)
 }
 genList()
+
+const playsound = function(){
+    var sonido = new Audio("backgroundnoise.mp3");
+    sonido.play();
+    sonido.loop();
+    document.removeEventListener(`click`, playsound);
+
+}
+document.addEventListener(`click`, playsound);
