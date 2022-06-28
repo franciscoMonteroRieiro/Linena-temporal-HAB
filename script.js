@@ -16,8 +16,8 @@ function genEvent(obj){
     const li = document.createElement("li")
     li.innerHTML= `
         <h1>${obj.title}</h1>
-        <h1 class="date">${obj.date}</h1>
-        <h3>${obj.text}</h3>
+        <h1>${obj.date}</h1>
+        <h2>${obj.text}</h2>
         <img src="${obj.image}" alt="">
         <iframe width="560" height="315" src="${obj.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     `
