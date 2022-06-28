@@ -52,3 +52,11 @@ li:nth-child(9) img {
 li h2{
     margin-bottom: 30px;
 }
+
+button{
+    color: white;
+    background-color: rgb(33, 15, 97);
+    margin-top: 3rem;
+    margin-left: 53rem;
+    justify-items: center;
+}
